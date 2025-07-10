@@ -125,6 +125,12 @@ ul li {
   transition: all 0.3s ease;
 }
 
+/* 👇 FIX: Dark mode style for skill buttons */
+body.dark-mode ul li {
+  background: #333;
+  color: #f9f9f9;
+}
+
 ul li.active-skill {
   background: var(--accent);
   color: white;
